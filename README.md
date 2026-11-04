@@ -1,24 +1,40 @@
 # Phishing-Resistant MFA (FIDO2/Passkeys) Rollout for an SME
 
-Portfolio pack by Md Shohrab Hossen Niaz. Fictional / laboratory SME context unless noted. Professional delivery artefact — not a course-code wrapper.
+**Author:** Md Shohrab Hossen Niaz  
+**Focus:** identity  
+**Visibility guidance:** public-ok
+
+## Overview
+
+Modern identity hardening; ties back to IAM track after Project 3/38.
 
 ## Research questions
 
-1. What controls raise phishing resistance affordably?
-2. How should adoption and change management be handled?
-3. What residual risk remains?
+1. What business problem does “Phishing-Resistant MFA (FIDO2/Passkeys) Rollout for an SME” solve for an SME or partner organisation?
+2. Which artefacts demonstrate a credible, implementable solution?
+3. How is success measured without overstating lab or synthetic evidence?
 
-## Artefacts
+## Deliverables
 
 - rollout plan
-- awareness framework
-- adoption metrics
+- awareness/adoption metrics
+- control checklist
+- Report and presentation (`Final_Submission/`)
+- Evaluation scorecard (`02_Evaluation/`)
+- Design notes (`01_Design/`)
+- Baseline evidence JSON (`evidence/`)
 
-## Contents
+## Repository layout
 
-- `Final_Submission/` — report, slides, read-me
-- `01_Design/` — design and method notes
-- `02_Evaluation/` — workbook / scorecard
-- `evidence/` — synthetic or lab JSON baseline
+```
+01_Design/           Design and method notes
+02_Evaluation/       Scorecard workbook
+evidence/            Baseline evidence model
+Final_Submission/    Report, slides, appendices
+```
 
-Repository: `phishing-resistant-mfa-fido2-passkeys-rollout-for-an-sm`
+## Limits
+
+Synthetic or laboratory baselines are labelled. No production tenant secrets. Where a topic could imply offensive techniques, this pack stays defensive and high-level.
+
+**GitHub:** `fido2-passkeys-mfa-rollout`

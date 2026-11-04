@@ -1,10 +1,17 @@
 {
-  "seq": 40,
   "title": "Phishing-Resistant MFA (FIDO2/Passkeys) Rollout for an SME",
-  "slug": "phishing-resistant-mfa-fido2-passkeys-rollout-for-an-sm",
+  "old_slug": "phishing-resistant-mfa-fido2-passkeys-rollout-for-an-sm",
+  "slug": "fido2-passkeys-mfa-rollout",
   "folder": "Phishing_Resistant_Mfa_Fido2_Passkeys_Rollout_For",
-  "kind": "identity_human",
-  "body_words": 241,
+  "kind": "identity",
+  "body_words": 317,
+  "source": "SCI700",
   "project_id": "Project 35",
-  "source": "SCI700"
+  "public": {
+    "public_ok": true,
+    "tier": "public-ok",
+    "reasons": [
+      "Strong portfolio narrative; synthetic baseline is fine for public"
+    ]
+  }
 }
